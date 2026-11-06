@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bibliothek der Vergesslichen</title>
+<meta name="description" content="Eine deutsche Wortsammlung mit Grammatik: Vokabular, Wortfamilien und Grammatikthemen.">
+<meta name="theme-color" content="#1B1516">
+<link rel="icon" href="img/buch-1.svg" type="image/svg+xml">
+<!-- only this site's own scripts, styles and fonts; nothing loaded from elsewhere -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<!-- not listed by search engines; no reservation of text and data mining, which the open
+     licences of the data and the pictures allow -->
+<meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+<link rel="stylesheet" href="css/bibliothek.css">
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <a href="#start" class="vt name">Bibliothek der Vergesslichen</a>
+    <nav aria-label="Bibliothek">
+      <a href="#start" data-nav="start">Eingang</a>
+      <a href="#vokabular" data-nav="vokabular">Vokabular</a>
+      <a href="#grammatik" data-nav="grammatik">Grammatik</a>
+      <a href="#notizen" data-nav="notizen" id="nnav" hidden>Notizen <span></span></a>
+      <a href="#ueben" data-nav="ueben" class="door">Üben</a>
+    </nav>
+  </header>
+  <main id="app" aria-live="polite"><div class="loading">Die Bibliothek wird aufgeschlossen …</div></main>
+  <footer class="fuss"><a href="#quellen">Quellen und Nutzung</a> · Daten CC BY-SA 4.0 · <a href="https://github.com/laurafontanesi/bibliothek-der-vergesslichen" rel="noopener">Repository</a></footer>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

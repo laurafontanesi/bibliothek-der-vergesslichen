@@ -1,0 +1,113 @@
+{
+  "_about": "The lists that Python and the website share. Python reads this file (vocab_builder/schema.py); python -m vocab_builder karten writes web/js/schema.js from it. Change them here only.",
+  "levels": {
+    "goethe": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "above": "B2+"
+  },
+  "word_types": {
+    "noun": "Nomen",
+    "verb": "Verb",
+    "adj/adv": "Adjektiv, Adverb",
+    "prep/conj": "Präposition, Konjunktion",
+    "expression": "Ausdruck",
+    "construction": "Konstruktion",
+    "other": "Andere"
+  },
+  "related_kinds": {
+    "contrast": "Leicht zu verwechseln",
+    "synonym": "Gleiche Bedeutung",
+    "antonym": "Gegenteil",
+    "derived": "Gleicher Stamm",
+    "compound": "Zusammensetzung"
+  },
+  "topics": {
+    "home & objects": {
+      "de": "Haus und Dinge",
+      "definition": "Housing, rooms, furnishings, household objects, clothing, cleaning and domestic maintenance. Exclude general physical actions merely illustrated with a household object."
+    },
+    "food & drink": {
+      "de": "Essen und Trinken",
+      "definition": "Food, beverages, preparation, eating, drinking and dining. Include verbs only when a food-related meaning is explicitly recorded."
+    },
+    "body & health": {
+      "de": "Körper und Gesundheit",
+      "definition": "Anatomy, bodily functions, physical sensations, illness, treatment, hygiene, recovery, sport. Include physical exhaustion; distinguish it from emotional distress."
+    },
+    "thinking & perception": {
+      "de": "Denken und Wahrnehmen",
+      "definition": "Knowledge, memory, attention, reasoning, judgement, decisions and sensory perception. Include looking and noticing; exclude general comparisons between objects."
+    },
+    "emotions & character": {
+      "de": "Gefühle und Charakter",
+      "definition": "Feelings, moods, preferences, temperament and personal dispositions. Exclude general usefulness, size or quality unless the meaning concerns a person's character."
+    },
+    "people & relationships": {
+      "de": "Menschen und Beziehungen",
+      "definition": "Personal relationships, encounters, trust, cooperation, interpersonal behaviour and social interaction. Exclude actions simply because a person performs them."
+    },
+    "language & communication": {
+      "de": "Sprache und Kommunikation",
+      "definition": "Speaking, writing, listening, naming, conveying information, stance adverbs and conventional conversational acts. An idiom belongs here only when its function is communicative."
+    },
+    "work & jobs": {
+      "de": "Arbeit und Beruf",
+      "definition": "Employment, occupations, workplace arrangements, professional responsibilities, vocational training and working conditions. Exclude generic effort, success or activity."
+    },
+    "science & academia": {
+      "de": "Wissenschaft und Studium",
+      "definition": "Research, academic study, scientific methods, evidence, and scholarly institutions or outputs. Exclude general concepts merely because researchers use them."
+    },
+    "technology & media": {
+      "de": "Technik und Medien",
+      "definition": "Devices, technical systems, digital tools, broadcasting, and media production or distribution. Not every act of reporting and not every artificial object."
+    },
+    "money & shopping": {
+      "de": "Geld und Einkaufen",
+      "definition": "Prices, payment, wealth, ownership, buying, selling and economic transactions. Exclude general exchange, receipt or waste without a financial meaning."
+    },
+    "society & politics": {
+      "de": "Gesellschaft und Politik",
+      "definition": "Public institutions, law, governance, collective social structures, rights and public affairs. Distinguish from individual interpersonal relationships."
+    },
+    "culture & arts": {
+      "de": "Kultur und Kunst",
+      "definition": "Literature, visual and performing arts, creative practices, cultural works and their creators. Exclude general attractiveness or beauty."
+    },
+    "nature & weather": {
+      "de": "Natur und Wetter",
+      "definition": "Animals, plants, landscapes, natural environments, weather and environmental processes. Exclude physical properties that apply equally to manufactured objects."
+    },
+    "travel & movement": {
+      "de": "Reisen und Bewegung",
+      "definition": "Journeys, transport, routes, destinations, navigation, locomotion and directional movement. Exclude manipulating an object solely because the object moves."
+    },
+    "time": {
+      "de": "Zeit",
+      "definition": "Temporal location, duration, frequency, sequence, deadlines and speed of occurrence. Exclude events merely because they occur in time."
+    },
+    "quantity & comparison": {
+      "de": "Menge und Vergleich",
+      "definition": "Amount, extent, sufficiency, scarcity, similarity, difference and comparative scale."
+    },
+    "materials & physical properties": {
+      "de": "Material und Eigenschaften",
+      "definition": "Materials and observable physical characteristics: shape, texture, surface, structural integrity, physical force. Exclude generic handling actions."
+    },
+    "change & development": {
+      "de": "Veränderung und Entwicklung",
+      "definition": "Alteration, growth, decline, increase, decrease, transformation and persistence of a state. Exclude mere movement to a different place."
+    },
+    "goals, effort & outcomes": {
+      "de": "Ziele und Ergebnisse",
+      "definition": "Intentional aims, attempts, effort, obstacles, giving up, achievement and reward. Exclude ordinary actions, events, and evaluative adjectives such as useful or suitable."
+    },
+    "connectors & constructions": {
+      "de": "Konnektoren und Konstruktionen",
+      "definition": "Connectives, discourse particles, prepositions and reusable grammatical patterns that relate clauses or sentence elements. A grammatical category; not abstract vocabulary."
+    }
+  }
+}

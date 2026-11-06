@@ -1,0 +1,10 @@
+# never in git: downloads from others and personal files (private/sources, private/personal)
+/private/
+.env
+.DS_Store
+__pycache__/
+.venv/
+
+# personal files the website saves (Lernstand, Notizen): never in git, wherever they land
+lernstand_*.json
+notizen_*.json
