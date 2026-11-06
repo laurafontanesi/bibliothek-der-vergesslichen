@@ -2,6 +2,7 @@
 // the newest words and the largest families.
 import { LEVELS, forms, meaning, allMeanings, norm, TYPE_DE } from '../daten.js';
 import { h, raw, html, hero, seg, link } from '../hilfe.js';
+import { cover } from './familien.js';
 
 export function render(D) {
   const words = Object.fromEntries(LEVELS.map(l => [l, D.W.filter(e => e.level === l).length]));
@@ -67,7 +68,7 @@ export function render(D) {
 
   <section style="display:flex;flex-direction:column;gap:12px">
     <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 class="sec">Große Wortfamilien</h2><a href="${link.familien()}" style="font-size:14px">alle ${D.families.length} Familien →</a></div>
-    <div class="chips">${D.families.slice(0, 8).map(([r, es]) => h`<a href="${link.familie(r)}" style="display:inline-flex;align-items:baseline;gap:8px;padding:8px 12px;border:1px solid var(--line);background:var(--panel);color:var(--tx);text-decoration:none"><span class="de" style="font-size:17px">${r}</span><span class="vt" style="font-size:20px;color:var(--muted)">${es.length}</span></a>`)}</div>
+    <div class="chips">${D.families.slice(0, 8).map(([r, es]) => h`<a href="${link.familie(r)}" style="display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 8px;border:1px solid var(--line);background:var(--panel);color:var(--tx);text-decoration:none"><img src="${cover(D, r)}" alt="" width="21" height="27" style="image-rendering:pixelated"><span class="de" style="font-size:17px">${r}</span><span class="vt" style="font-size:20px;color:var(--muted)">${es.length}</span></a>`)}</div>
   </section>`;
   return { title: '', view, mount: el => mountSearch(el, D) };
 }
