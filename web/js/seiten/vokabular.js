@@ -57,6 +57,7 @@ export function render(D, args, query) {
       <div class="segs" role="group" aria-label="Suchrichtung" id="dirs"></div>
       <label for="vq" class="vh">Im Vokabular suchen</label>
       <input id="vq" class="search" type="search" autocomplete="off" value="${s.q}">
+      <a href="${link.familien()}" style="font-size:14px;align-self:flex-start">nach Wortfamilien stöbern →</a>
     </div>`)}
   <div class="side">
     <aside class="filters closed" aria-label="Filter" id="filters"></aside>
